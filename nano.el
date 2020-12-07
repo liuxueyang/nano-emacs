@@ -18,7 +18,7 @@
 (package-initialize)
 
 ;; Path to nano emacs modules (mandatory)
-(add-to-list 'load-path "/Users/rougier/Documents/GitHub/nano-emacs")
+(add-to-list 'load-path "/Users/algouage/fun/nano-emacs")
 (add-to-list 'load-path ".")
 
 ;; Window layout (optional)

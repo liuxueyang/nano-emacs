@@ -102,10 +102,10 @@
 
 ;; Mac specific
 (setq ns-use-native-fullscreen t
-      mac-option-key-is-meta nil
-      mac-command-key-is-meta t
-      mac-command-modifier 'meta
-      mac-option-modifier nil
+      mac-option-key-is-meta t
+      mac-command-key-is-meta nil
+      ;; mac-command-modifier 'meta
+      ;; mac-option-modifier t
       mac-use-title-bar nil)
 
 ;; Make sure clipboard works properly in tty mode on OSX

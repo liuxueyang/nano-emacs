@@ -46,7 +46,11 @@ repository and then call for the different modules. The only mandatory
 module is the theme that defines 6 faces that are used in other
 modules.
 
-
+```shell
+# nano emacs
+export nano_emacs="$HOME/fun/nano-emacs"
+alias nano_emacs="cd $nano_emacs && $(which emacs) -q -l ${nano_emacs}/nano.el -dark &; cd -"
+```
 
 ### Modules
 
